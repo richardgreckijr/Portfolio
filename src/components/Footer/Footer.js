@@ -6,31 +6,31 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-<FooterWrapper>
-  <LinkList>
-    <LinkColumn>
-      <LinkTitle>Call</LinkTitle>
-      <LinkItem href='tel:111-111-1111'>631-742-9775</LinkItem>
-    </LinkColumn>
-    <LinkColumn>
-      <LinkTitle>Email</LinkTitle>
-      <LinkItem href='mailto:richardgreckijr@gmail.com'>richardgreckijr@gmail.com</LinkItem>
-    </LinkColumn>
-  </LinkList>
-  <SocialIconsContainer>
-    <CompanyContainer>
-      <Slogan>Innovating, learning, and adapting one project at a time.</Slogan>
-    </CompanyContainer>
-    <SocialContainer>
-    <SocialIcons href='https://github.com/richardgreckijr'>
-           <AiFillGithub size='3rem' />
-         </SocialIcons>
-         <SocialIcons href='https://www.linkedin.com/in/richard-grecki-jr/'>
-           <AiFillLinkedin size='3rem' />
-         </SocialIcons>
-         </SocialContainer>
-  </SocialIconsContainer>
-</FooterWrapper>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem href='tel:631-742-9775'>631-742-9775</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href='mailto:richardgreckijr@gmail.com'>richardgreckijr@gmail.com</LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Innovating, learning, and adapting one project at a time.</Slogan>
+        </CompanyContainer>
+        <SocialContainer>
+          <SocialIcons href='https://github.com/richardgreckijr'>
+            <AiFillGithub size='3rem' />
+          </SocialIcons>
+          <SocialIcons href='https://www.linkedin.com/in/richard-grecki-jr/'>
+            <AiFillLinkedin size='3rem' />
+          </SocialIcons>
+        </SocialContainer>
+      </SocialIconsContainer>
+    </FooterWrapper>
   );
 };
 

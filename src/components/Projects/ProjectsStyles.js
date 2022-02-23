@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   width:100%;
   height:100%;
   object-fit: cover;
@@ -24,7 +26,7 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px hsl(0, 3%, 70%);
+  box-shadow: 4px 4px 20px hsl(0, 3%, 70%);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
